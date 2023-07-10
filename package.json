@@ -1,0 +1,55 @@
+{
+  "name": "react-material-symbols",
+  "version": "1.0.0",
+  "description": "Package for using material symbols from Google on React",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "download-svgs": "esno scripts/download-svgs",
+    "generate-icon-components": "esno scripts/generate-icon-components"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yteruel31/react-material-symbols.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yteruel31/react-material-symbols/issues"
+  },
+  "homepage": "https://github.com/yteruel31/react-material-symbols#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5",
+    "@storybook/addon-essentials": "^7.0.24",
+    "@storybook/addons": "^7.0.24",
+    "@storybook/api": "^7.0.24",
+    "@storybook/components": "^7.0.24",
+    "@storybook/core-events": "^7.0.24",
+    "@storybook/react": "^7.0.24",
+    "@storybook/react-webpack5": "^7.0.24",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@types/yargs": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
+    "@typescript-eslint/parser": "^5.42.1",
+    "chalk": "^4.1.1",
+    "cross-fetch": "^4.0.0",
+    "eslint": "^8.44.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-react": "^7.32.2",
+    "esno": "^0.6.0",
+    "fs-extra": "^11.1.1",
+    "prettier": "^3.0.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.24",
+    "svgson": "^5.3.0",
+    "yargs": "^17.0.1"
+  }
+}

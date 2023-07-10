@@ -1,0 +1,10 @@
+# Jetbrains
+/.idea
+
+
+# Dependencies
+/node_modules
+
+.gitkeep
+
+/src/components/Icons/generated/*

@@ -1690,6 +1690,41 @@
   resolved "https://registry.yarnpkg.com/@juggle/resize-observer/-/resize-observer-3.4.0.tgz#08d6c5e20cf7e4cc02fd181c4b0c225cd31dbb60"
   integrity sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==
 
+"@material-symbols/svg-100@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@material-symbols/svg-100/-/svg-100-0.9.0.tgz#0e7d34891d6031de8d4abe70c8087020ec32024b"
+  integrity sha512-iWPTHKRWigRltdKss9a82xEm14oeSQjl/JuOwCWbj8bmiYFPlnZEvU8zhaT/PCVkKZRS4f5E754ByRrlPE2niQ==
+
+"@material-symbols/svg-200@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@material-symbols/svg-200/-/svg-200-0.9.0.tgz#e0b7660d833947318b06a6972396227c75233096"
+  integrity sha512-OVjcIqL/P9RqQFa8aShb4XsXpFWZWeZbXtxkz6+o8BQkF+MIRBMfZUcTaOHivMnsd55qgph8AWfXq3vKBlg0Yw==
+
+"@material-symbols/svg-300@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@material-symbols/svg-300/-/svg-300-0.9.0.tgz#666edc48fd47cc08374f5d8ead316f436afb97ff"
+  integrity sha512-/3k5L1fRpCDhba4f5Y5NrFXSvegK3YAf57ZM5J9VXwOlDNIHiKGJukN2feSah0vSHOq7Zp0jEXdpz85nHOKHtg==
+
+"@material-symbols/svg-400@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@material-symbols/svg-400/-/svg-400-0.9.0.tgz#b1d061a0238caaf1036d4f51cdb3767da0929e2e"
+  integrity sha512-MsIi5oCgsC4Fcd/NvzSZ+E0g6gmt6611SzC38LtJUQpkSZMu4OMXEkExv9hMfYPTqOy9k4czTao42uE6JE7LlA==
+
+"@material-symbols/svg-500@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@material-symbols/svg-500/-/svg-500-0.9.0.tgz#d2be1fce622c83c22c8c4d242ce9d8c3aee81e3f"
+  integrity sha512-BKYdWLYFEoETTqsrukMj98kVTytqGhFg2PpPPt3gEsDUSCZrub0/KioDEt0/sGSZcoUo9IqArhlljAh1GaKvQw==
+
+"@material-symbols/svg-600@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@material-symbols/svg-600/-/svg-600-0.9.0.tgz#160a48646e07dfc5989e4e8fd65a7b3fb7687d02"
+  integrity sha512-8O6tJkaefEW7Gnwg2ZSqOHk88Tglc7SrPq9uWDf/Jf+o5UQSdWN0gqhNGDpXCHwy4pxyXsMgcSAsnSn0d69AbQ==
+
+"@material-symbols/svg-700@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@material-symbols/svg-700/-/svg-700-0.9.0.tgz#188dfedcf026af27326c5dcae38b73f36cb7fcf8"
+  integrity sha512-S4w54IFk7nThQ8/XSez38NPPJu1e0NrjtvQIz1U1eJKROYgqSkwe/uA53DLZuf/tNH+CGwdBvNy8CHGw3UrDRQ==
+
 "@mdx-js/react@^2.1.5":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-2.3.0.tgz#4208bd6d70f0d0831def28ef28c26149b03180b3"
@@ -2635,6 +2670,14 @@
   resolved "https://registry.yarnpkg.com/@types/find-cache-dir/-/find-cache-dir-3.2.1.tgz#7b959a4b9643a1e6a1a5fe49032693cc36773501"
   integrity sha512-frsJrz2t/CeGifcu/6uRo4b+SzAwT4NYCVPu1GN8IB9XTzrpPkGuV0tmh9mN+/L0PklAlsC3u5Fxt0ju00LXIw==
 
+"@types/fs-extra@^11.0.1":
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/@types/fs-extra/-/fs-extra-11.0.1.tgz#f542ec47810532a8a252127e6e105f487e0a6ea5"
+  integrity sha512-MxObHvNl4A69ofaTRU8DFqvgzzv8s9yRtaPPm5gud9HDNvpB3GPQFvNuTWAI59B9huVGV5jXYJwbCsmBsOGYWA==
+  dependencies:
+    "@types/jsonfile" "*"
+    "@types/node" "*"
+
 "@types/glob@^8.0.0":
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/@types/glob/-/glob-8.1.0.tgz#b63e70155391b0584dce44e7ea25190bbc38f2fc"
@@ -2688,6 +2731,13 @@
   version "0.0.29"
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
   integrity sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==
+
+"@types/jsonfile@*":
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/@types/jsonfile/-/jsonfile-6.1.1.tgz#ac84e9aefa74a2425a0fb3012bdea44f58970f1b"
+  integrity sha512-GSgiRCVeapDN+3pqA35IkQwasaCh/0YFH5dEF6S88iDvEn901DjOeH3/QPY+XYP1DFzDZPvIvfeEgk+7br5png==
+  dependencies:
+    "@types/node" "*"
 
 "@types/lodash@^4.14.167":
   version "4.14.195"

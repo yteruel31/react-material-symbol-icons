@@ -7,10 +7,19 @@ const storiesPath = path
 
 const config: StorybookConfig = {
   stories: [storiesPath],
-  addons: ['@storybook/addon-essentials'],
+  //addons: ['@storybook/addon-essentials'],
   framework: {
     name: '@storybook/react-webpack5',
     options: {},
+  },
+  webpackFinal: async (config) => {
+    if (config.resolve) {
+      config.resolve.alias = {
+        ...config.resolve.alias,
+        '@': path.resolve(__dirname, '../src'),
+      };
+    }
+    return config;
   },
 };
 

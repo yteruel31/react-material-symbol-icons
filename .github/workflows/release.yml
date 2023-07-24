@@ -1,0 +1,71 @@
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  id-token: write
+  pull-requests: write
+
+name: release
+
+jobs:
+  release-package:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    outputs:
+      release_created: ${{ steps.release.outputs.release_created }}
+    steps:
+      - name: Release-please
+        uses: google-github-actions/release-please-action@v3
+        id: release
+        with:
+          changelog-types: '[{"type": "feat", "section": "Features", "hidden": false},{"type": "fix", "section": "Bug Fixes", "hidden": false},{"type": "perf", "section": "Performance", "hidden": false},{"type": "refactor", "section": "Refactoring", "hidden": false},{"type": "chore", "section": "Miscellaneous", "hidden": false},{"type": "build", "section": "Miscellaneous", "hidden": false},{"type": "deps", "section": "Dependencies", "hidden": false},{"type": "docs", "section": "Documentations", "hidden": false}]'
+          release-type: node
+          package-name: react-material-symbols
+          bump-minor-pre-major: true
+
+      - name: Checkout
+        if: ${{ steps.release.outputs.release_created }}
+        uses: actions/checkout@v3
+
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        if: ${{ steps.release.outputs.release_created }}
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - name: Cache
+        if: ${{ steps.release.outputs.release_created }}
+        uses: actions/cache@v3
+        id: yarn-cache
+        with:
+          path: |
+            **/node_modules
+            .npmrc
+            ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: Setup Node
+        if: ${{ steps.release.outputs.release_created }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Install dependencies
+        if: steps.yarn-cache.outputs.cache-hit != 'true' && ${{ steps.release.outputs.release_created }}
+        run: yarn install --frozen-lockfile
+
+      - name: Build library
+        if: ${{ steps.release.outputs.release_created }}
+        run: yarn build
+
+      - name: Publish package to NPM
+        if: ${{ steps.release.outputs.release_created }}
+        run: npm publish

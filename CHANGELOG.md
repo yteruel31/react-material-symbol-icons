@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/yteruel31/react-material-symbols/compare/v1.0.0...v1.0.1) (2023-07-24)
+
+
+### Bug Fixes
+
+* Add properties for package publication ([01b1adc](https://github.com/yteruel31/react-material-symbols/commit/01b1adc7f6ac20fbeed216b06ce674c10ed0bfd4))
+
 ## 1.0.0 (2023-07-24)
 
 

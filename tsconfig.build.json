@@ -1,0 +1,36 @@
+{
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.story.tsx"
+  ],
+  "compilerOptions": {
+    "rootDir": "src",
+    "target": "ES2015",
+    "lib": [
+      "DOM",
+      "ESNext"
+    ],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "jsx": "react",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noEmitOnError": true,
+    "allowJs": true,
+    "composite": true,
+    "outDir": "dist/lib",
+    "declaration": true,
+    "declarationMap": true,
+    "declarationDir": "dist/lib",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  }
+}

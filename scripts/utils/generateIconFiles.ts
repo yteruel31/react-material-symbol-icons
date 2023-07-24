@@ -24,7 +24,7 @@ const initialIconKeysTemplate = (keys: string) => `\
 // This file is generated automatically
 // Run \`yarn generate:components\` to update
 
-const iconKeys = [${keys}] as const;
+const iconKeys: readonly string[] = [${keys}] as const;
 export type IconKey = typeof iconKeys[number];
 `;
 
@@ -32,7 +32,7 @@ const initialIconChildrenTemplate = (iconChildren: string) => `\
 // This file is generated automatically
 // Run \`yarn generate:components\` to update
 
-export const ICONS = {${iconChildren}};
+export const ICONS: Record<string, any> = {${iconChildren}};
 `;
 
 const writeFile = (

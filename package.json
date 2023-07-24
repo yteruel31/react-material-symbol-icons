@@ -6,8 +6,7 @@
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "download-svgs": "esno scripts/download-svgs",
-    "generate-icon-components": "esno scripts/generate-icon-components"
+    "generate:components": "esno scripts/generate-icons"
   },
   "repository": {
     "type": "git",
@@ -27,6 +26,13 @@
     "@babel/preset-env": "^7.22.5",
     "@babel/preset-react": "^7.22.5",
     "@babel/preset-typescript": "^7.22.5",
+    "@material-symbols/svg-100": "^0.9.0",
+    "@material-symbols/svg-200": "^0.9.0",
+    "@material-symbols/svg-300": "^0.9.0",
+    "@material-symbols/svg-400": "^0.9.0",
+    "@material-symbols/svg-500": "^0.9.0",
+    "@material-symbols/svg-600": "^0.9.0",
+    "@material-symbols/svg-700": "^0.9.0",
     "@storybook/addon-essentials": "^7.0.24",
     "@storybook/addons": "^7.0.24",
     "@storybook/api": "^7.0.24",
@@ -34,6 +40,7 @@
     "@storybook/core-events": "^7.0.24",
     "@storybook/react": "^7.0.24",
     "@storybook/react-webpack5": "^7.0.24",
+    "@types/fs-extra": "^11.0.1",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "@types/yargs": "^17.0.0",

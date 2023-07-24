@@ -1,11 +1,29 @@
 {
-  "extends": ["react-app"],
-  "plugins": ["react"],
-  "ignorePatterns": ["**/*.type.ts"],
+  "extends": [
+    "react-app"
+  ],
+  "plugins": [
+    "react"
+  ],
+  "ignorePatterns": [
+    "**/*.type.ts"
+  ],
   "rules": {
-    "import/order": ["error"],
-    "no-template-curly-in-string": ["off"],
-    "react-hooks/exhaustive-deps": ["off"],
-    "react/jsx-curly-brace-presence": ["error", "never"]
+    "import/order": [
+      "error"
+    ],
+    "no-template-curly-in-string": [
+      "off"
+    ],
+    "react-hooks/exhaustive-deps": [
+      "off"
+    ],
+    "react/jsx-curly-brace-presence": [
+      "error",
+      "never"
+    ],
+    "@typescript-eslint/no-unused-vars": [
+      "off"
+    ]
   }
 }

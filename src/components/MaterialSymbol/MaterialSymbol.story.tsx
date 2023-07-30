@@ -10,7 +10,7 @@ export const Default = (props) => (
   <div>
     <MaterialSymbol
       {...props}
-      icon="window_sensor"
+      icon="10mp"
       theme="rounded"
       weight="500"
       filled

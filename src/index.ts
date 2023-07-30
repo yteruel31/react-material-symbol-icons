@@ -1,1 +1,1 @@
-export * from '@/components/MaterialSymbol';
+export * from './components/MaterialSymbol';

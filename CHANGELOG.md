@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/yteruel31/react-material-symbols/compare/v1.1.1...v1.1.2) (2023-07-30)
+
+
+### Bug Fixes
+
+* replace alias by relative export ([837d659](https://github.com/yteruel31/react-material-symbols/commit/837d659910162519e5b946d9b262cb8c78f352d2))
+
 ## [1.1.1](https://github.com/yteruel31/react-material-symbols/compare/v1.1.0...v1.1.1) (2023-07-30)
 
 

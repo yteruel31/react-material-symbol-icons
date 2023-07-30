@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/yteruel31/react-material-symbols/compare/v1.0.1...v1.0.2) (2023-07-30)
+
+
+### Bug Fixes
+
+* Add NPM secret ([3daa384](https://github.com/yteruel31/react-material-symbols/commit/3daa384ee5c1793602f9ed549d9eedd0b660ea0c))
+
 ## [1.0.1](https://github.com/yteruel31/react-material-symbols/compare/v1.0.0...v1.0.1) (2023-07-24)
 
 

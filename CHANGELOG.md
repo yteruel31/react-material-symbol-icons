@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/yteruel31/react-material-symbols/compare/v1.0.2...v1.0.3) (2023-07-30)
+
+
+### Miscellaneous
+
+* Change package name ([1161669](https://github.com/yteruel31/react-material-symbols/commit/116166916dae479cc4ef5b26b15ff274ea5cd7ed))
+
 ## [1.0.2](https://github.com/yteruel31/react-material-symbols/compare/v1.0.1...v1.0.2) (2023-07-30)
 
 

@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.1.0](https://github.com/yteruel31/react-material-symbols/compare/v1.0.3...v1.1.0) (2023-07-30)
+
+
+### Bug Fixes
+
+* change script name to `generate:keys` ([bfc4c9c](https://github.com/yteruel31/react-material-symbols/commit/bfc4c9c49072b9ea99e0e596a7e3cd727cd130dd))
+
+
+### Miscellaneous
+
+* reduce build size ([3798f93](https://github.com/yteruel31/react-material-symbols/commit/3798f93b10528dca435f427c60a3e8d03e012e74))
+
+
+### Dependencies
+
+* Bump eslint-plugin-react from 7.32.2 to 7.33.1 ([74df223](https://github.com/yteruel31/react-material-symbols/commit/74df223e5f368aef2c7753e6626c40091ab02159))
+
 ## [1.0.3](https://github.com/yteruel31/react-material-symbols/compare/v1.0.2...v1.0.3) (2023-07-30)
 
 

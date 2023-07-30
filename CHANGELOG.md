@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/yteruel31/react-material-symbols/compare/v1.1.0...v1.1.1) (2023-07-30)
+
+
+### Bug Fixes
+
+* add missing material-symbols package ([ae4a941](https://github.com/yteruel31/react-material-symbols/commit/ae4a941b8ae3b095163f742558bc77de516b56fb))
+
 ## [1.1.0](https://github.com/yteruel31/react-material-symbols/compare/v1.0.3...v1.1.0) (2023-07-30)
 
 

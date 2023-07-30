@@ -1,5 +1,5 @@
 {
-  "name": "react-material-symbols",
+  "name": "react-material-symbol-icons",
   "version": "1.0.2",
   "description": "Package for using material symbols from Google on React",
   "main": "dist/cjs/index.js",

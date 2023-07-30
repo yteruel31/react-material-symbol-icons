@@ -26,7 +26,7 @@ jobs:
         with:
           changelog-types: '[{"type": "feat", "section": "Features", "hidden": false},{"type": "fix", "section": "Bug Fixes", "hidden": false},{"type": "perf", "section": "Performance", "hidden": false},{"type": "refactor", "section": "Refactoring", "hidden": false},{"type": "chore", "section": "Miscellaneous", "hidden": false},{"type": "build", "section": "Miscellaneous", "hidden": false},{"type": "deps", "section": "Dependencies", "hidden": false},{"type": "docs", "section": "Documentations", "hidden": false}]'
           release-type: node
-          package-name: react-material-symbols
+          package-name: react-material-symbol-icons
           bump-minor-pre-major: true
 
       - name: Checkout

@@ -14,7 +14,7 @@
     "build": "npm run build:prepare && esno scripts/build",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "generate:components": "esno scripts/generate-icons"
+    "generate:keys": "esno scripts/generate-icon-keys"
   },
   "repository": {
     "type": "git",

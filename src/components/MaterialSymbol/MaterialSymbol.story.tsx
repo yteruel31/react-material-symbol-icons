@@ -6,14 +6,14 @@ export default {
   component: MaterialSymbol,
 };
 
-export const Default = () => (
-  <div style={{ backgroundColor: 'black' }}>
+export const Default = (props) => (
+  <div>
     <MaterialSymbol
-      icon="1k"
-      color="#fff"
+      {...props}
+      icon="window_sensor"
       theme="rounded"
-      weight="100"
-      size={100}
+      weight="500"
+      filled
     />
   </div>
 );

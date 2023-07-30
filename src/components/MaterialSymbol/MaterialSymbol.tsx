@@ -1,52 +1,53 @@
 import React, { createElement, forwardRef } from 'react';
-import { ICONS } from '../Icons/generated/generated-icon-children';
 import { IconKey } from '../Icons/generated/generated-icon-keys';
+import 'material-symbols/index.css';
 
 interface MaterialSymbolProps {
   icon: IconKey;
   filled?: boolean;
   theme?: 'outlined' | 'rounded' | 'sharp';
   weight?: '100' | '200' | '300' | '400' | '500' | '600' | '700';
-  size?: number;
-  color?: string;
-  stroke?: string;
+  size?: '20' | '24' | '40' | '48';
+  color?: React.CSSProperties['color'];
+  grade?: '-25' | '0' | '200';
   children?: React.ReactNode;
 }
 
-export const MaterialSymbol = forwardRef<SVGElement, MaterialSymbolProps>(
+export const MaterialSymbol = forwardRef<HTMLSpanElement, MaterialSymbolProps>(
   (
     {
       icon,
       filled,
       color = 'currentColor',
       theme = 'outlined',
-      size = 24,
+      size = '48',
       weight = '500',
+      grade = '0',
       children,
       ...rest
     },
     ref,
   ) => {
-    const key = `${icon}${filled ? '-fill' : ''}_${theme}_${weight}`;
-    const iconNodes = ICONS[key];
+    const fontVariationSettings = `'wght' ${weight}, 'FILL' ${
+      filled ? 1 : 0
+    }, 'GRAD' ${grade}, "opsz" ${size}`;
 
     return (
       <>
         {createElement(
-          'svg',
+          'span',
           {
             ref,
-            xmlns: 'http://www.w3.org/2000/svg',
-            viewBox: '0 -960 960 960',
-            width: size,
-            height: size,
-            fill: color,
+            style: {
+              fontVariationSettings,
+              color,
+              fontSize: `${size}px`,
+            },
+            className: 'material-symbols-' + theme,
+
             ...rest,
           },
-          [
-            ...iconNodes.map(([tag, attrs]) => createElement(tag, attrs)),
-            ...(children ? [children] : []),
-          ],
+          [...(icon ? [icon] : [])],
         )}
       </>
     );

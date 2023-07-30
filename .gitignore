@@ -7,3 +7,6 @@
 
 # Build
 /dist
+
+# Logs
+yarn-error.log

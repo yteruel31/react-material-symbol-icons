@@ -69,3 +69,5 @@ jobs:
       - name: Publish package to NPM
         if: ${{ steps.release.outputs.release_created }}
         run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

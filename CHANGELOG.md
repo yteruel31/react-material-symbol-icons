@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.1.3](https://github.com/yteruel31/react-material-symbol-icons/compare/v1.1.2...v1.1.3) (2023-09-11)
+
+
+### Bug Fixes
+
+* **generationKeys:** rename command commented example ([962ec65](https://github.com/yteruel31/react-material-symbol-icons/commit/962ec6580fcc774a7cdc9d57d945f8ee59bf4cb8))
+
+
+### Miscellaneous
+
+* add `IconKey` to the global export ([86d3814](https://github.com/yteruel31/react-material-symbol-icons/commit/86d3814eb978ad88655629bd4cb04017dfa267c3))
+* **Storybook:** add a job for publishing storybook page on Github page ([f6abfb1](https://github.com/yteruel31/react-material-symbol-icons/commit/f6abfb19b4927192e2ab8c7f9b35c8b2973b120d))
+
+
+### Documentations
+
+* **Storybook:** improve the MaterialSymbol story ([9a712c9](https://github.com/yteruel31/react-material-symbol-icons/commit/9a712c9a9716c556eb89aaa018cb38b4d2d29222))
+* Update ReadMe ([0eb5dcc](https://github.com/yteruel31/react-material-symbol-icons/commit/0eb5dcc98407eef07bd8c5b7140d2cbabf1d0d06))
+
 ## [1.1.2](https://github.com/yteruel31/react-material-symbols/compare/v1.1.1...v1.1.2) (2023-07-30)
 
 

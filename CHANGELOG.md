@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.4](https://github.com/yteruel31/react-material-symbol-icons/compare/v1.1.3...v1.1.4) (2023-09-11)
+
+
+### Miscellaneous
+
+* export correctly IconKey type from the global export ([cd6af50](https://github.com/yteruel31/react-material-symbol-icons/commit/cd6af507ecc613f4be8cd552e499456f69c5a770))
+
+
+### Documentations
+
+* add licence file ([4d32375](https://github.com/yteruel31/react-material-symbol-icons/commit/4d323751cd54b014361a5b9196a5f1c55f4a9d8e))
+
 ## [1.1.3](https://github.com/yteruel31/react-material-symbol-icons/compare/v1.1.2...v1.1.3) (2023-09-11)
 
 

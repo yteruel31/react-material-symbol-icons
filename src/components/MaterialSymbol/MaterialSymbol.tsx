@@ -3,13 +3,28 @@ import { IconKey } from '../Icons/generated/generated-icon-keys';
 import 'material-symbols/index.css';
 
 interface MaterialSymbolProps {
+  /** The icon to display */
   icon: IconKey;
+
+  /** Whether the icon should be filled or not */
   filled?: boolean;
+
+  /** The theme of the icon. Defaults to 'outlined' */
   theme?: 'outlined' | 'rounded' | 'sharp';
+
+  /** The font weight of the icon. Defaults to '500' */
   weight?: '100' | '200' | '300' | '400' | '500' | '600' | '700';
+
+  /** The size of the icon. Defaults to '48' */
   size?: '20' | '24' | '40' | '48';
+
+  /** The color of the icon. Defaults to 'currentColor' */
   color?: React.CSSProperties['color'];
+
+  /** The grade of the icon. Defaults to '0' */
   grade?: '-25' | '0' | '200';
+
+  /** The children of the icon */
   children?: React.ReactNode;
 }
 
@@ -44,7 +59,6 @@ export const MaterialSymbol = forwardRef<HTMLSpanElement, MaterialSymbolProps>(
               fontSize: `${size}px`,
             },
             className: 'material-symbols-' + theme,
-
             ...rest,
           },
           [...(icon ? [icon] : [])],

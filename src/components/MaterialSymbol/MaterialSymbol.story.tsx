@@ -37,7 +37,17 @@ export const MaterialSymbol: Story = {
     return (
       <div>
         {iconKeys.map((iconKey) => (
-          <Component {...args} icon={iconKey} />
+          <div
+            style={{
+              display: 'inline-flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              margin: '1em',
+            }}
+          >
+            <Component {...args} icon={iconKey} />
+            <span>{iconKey}</span>
+          </div>
         ))}
       </div>
     );

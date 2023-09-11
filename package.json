@@ -21,11 +21,21 @@
     "url": "git+https://github.com/yteruel31/react-material-symbols.git"
   },
   "author": "Yoann TERUEL",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/yteruel31/react-material-symbols/issues"
   },
   "homepage": "https://github.com/yteruel31/react-material-symbols#readme",
+  "keywords": [
+    "react",
+    "material design",
+    "material icons",
+    "material",
+    "icons",
+    "symbols",
+    "google",
+    "typescript"
+  ],
   "dependencies": {
     "react": "^18.2.0",
     "typescript": "^4.8.4",

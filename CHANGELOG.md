@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.5](https://github.com/yteruel31/react-material-symbol-icons/compare/v1.1.4...v1.1.5) (2023-09-11)
+
+
+### Documentations
+
+* **package.json:** add keywords ([f88e09e](https://github.com/yteruel31/react-material-symbol-icons/commit/f88e09eec8b0bed29a9011c475f1996bafd44ab5))
+
 ## [1.1.4](https://github.com/yteruel31/react-material-symbol-icons/compare/v1.1.3...v1.1.4) (2023-09-11)
 
 

@@ -10,9 +10,9 @@ const generatedIconsPath = path.join(
 
 const initialIconKeysTemplate = (keys: string) => `\
 // This file is generated automatically
-// Run \`yarn generate:components\` to update
+// Run \`yarn generate:keys\` to update
 
-const iconKeys: readonly string[] = [${keys}] as const;
+export const iconKeys: readonly string[] = [${keys}] as const;
 export type IconKey = typeof iconKeys[number];
 `;
 

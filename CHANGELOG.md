@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.6](https://github.com/yteruel31/react-material-symbol-icons/compare/v1.1.5...v1.1.6) (2023-10-01)
+
+
+### Dependencies
+
+* bump material-symbols from 0.10.2 to 0.13.0 ([57b894d](https://github.com/yteruel31/react-material-symbol-icons/commit/57b894d50a961337a10555662b45a5cbf9eab73c))
+* bump rollup from 3.26.3 to 3.29.4 ([1c5f9b3](https://github.com/yteruel31/react-material-symbol-icons/commit/1c5f9b30281f7042b66a93d3bf268df2b6bde4f1))
+
+
+### Documentations
+
+* **MaterialSymbol:** add missing key ([cfcd41f](https://github.com/yteruel31/react-material-symbol-icons/commit/cfcd41f9c77e8d8b5fea5a4945ffe28fcaea3d5d))
+
 ## [1.1.5](https://github.com/yteruel31/react-material-symbol-icons/compare/v1.1.4...v1.1.5) (2023-09-11)
 
 

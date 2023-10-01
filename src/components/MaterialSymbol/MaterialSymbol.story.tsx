@@ -38,6 +38,7 @@ export const MaterialSymbol: Story = {
       <div>
         {iconKeys.map((iconKey) => (
           <div
+            key={iconKey}
             style={{
               display: 'inline-flex',
               flexDirection: 'column',

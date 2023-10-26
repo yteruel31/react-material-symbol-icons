@@ -15,8 +15,8 @@ interface MaterialSymbolProps {
   /** The font weight of the icon. Defaults to '500' */
   weight?: '100' | '200' | '300' | '400' | '500' | '600' | '700';
 
-  /** The size of the icon. Defaults to '48' */
-  size?: '20' | '24' | '40' | '48';
+  /** The size of the icon in px. Defaults to '48' */
+  size?: '20' | '24' | '40' | '48' | number;
 
   /** The color of the icon. Defaults to 'currentColor' */
   color?: React.CSSProperties['color'];

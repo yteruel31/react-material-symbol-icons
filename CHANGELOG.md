@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/yteruel31/react-material-symbol-icons/compare/v1.1.6...v1.2.0) (2023-10-26)
+
+
+### Features
+
+* **MaterialSymbol:** allow `number` type on `size` prop ([acd2b9e](https://github.com/yteruel31/react-material-symbol-icons/commit/acd2b9e1b9d73d7d99712f63f1a6ba0241d6e9ba))
+
 ## [1.1.6](https://github.com/yteruel31/react-material-symbol-icons/compare/v1.1.5...v1.1.6) (2023-10-01)
 
 

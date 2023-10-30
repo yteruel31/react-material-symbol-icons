@@ -2,7 +2,7 @@ import React, { createElement, forwardRef } from 'react';
 import { IconKey } from '../Icons/generated/generated-icon-keys';
 import 'material-symbols/index.css';
 
-interface MaterialSymbolProps {
+export interface MaterialSymbolProps {
   /** The icon to display */
   icon: IconKey;
 

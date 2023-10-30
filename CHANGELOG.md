@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/yteruel31/react-material-symbol-icons/compare/v1.2.0...v1.2.1) (2023-10-30)
+
+
+### Bug Fixes
+
+* **MaterialSymbol:** export props type ([b433026](https://github.com/yteruel31/react-material-symbol-icons/commit/b43302626307e3c7e8a80b220a45870af84b8905))
+
 ## [1.2.0](https://github.com/yteruel31/react-material-symbol-icons/compare/v1.1.6...v1.2.0) (2023-10-26)
 
 

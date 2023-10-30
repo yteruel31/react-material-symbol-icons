@@ -78,7 +78,7 @@
     "react-dom": "^18.2.0",
     "rimraf": "^3.0.2",
     "rollup": "^3.26.0",
-    "rollup-plugin-esbuild": "^4.2.3",
+    "rollup-plugin-esbuild": "^6.1.0",
     "rollup-plugin-node-externals": "^6.1.1",
     "storybook": "^7.0.24",
     "yargs": "^17.0.1"

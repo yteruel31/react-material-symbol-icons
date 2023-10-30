@@ -1,7 +1,10 @@
 import React from 'react';
 import { StoryObj } from '@storybook/react';
 import { MaterialSymbol as Component } from '@/components/MaterialSymbol/MaterialSymbol';
-import { iconKeys } from '@/components/Icons/generated/generated-icon-keys';
+import {
+  IconKey,
+  iconKeys,
+} from '@/components/Icons/generated/generated-icon-keys';
 
 export default {
   title: 'Components/MaterialSymbol',
@@ -46,7 +49,7 @@ export const MaterialSymbol: Story = {
               margin: '1em',
             }}
           >
-            <Component {...args} icon={iconKey} />
+            <Component {...args} icon={iconKey as IconKey} />
             <span>{iconKey}</span>
           </div>
         ))}

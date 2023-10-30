@@ -8,24 +8,34 @@ const generatedIconsPath = path.join(
   `../../src/components/Icons/generated`,
 );
 
-const initialIconKeysTemplate = (keys: string) => `\
+const initialIconKeysTemplate = (
+  concatenatedLinesWithComma: string,
+  concatenatedLinesWithPipe: string,
+) => `\
 // This file is generated automatically
 // Run \`yarn generate:keys\` to update
 
-export const iconKeys: readonly string[] = [${keys}] as const;
-export type IconKey = typeof iconKeys[number];
+export const iconKeys: readonly string[] = [${concatenatedLinesWithComma}] as const;
+export type IconKey = ${concatenatedLinesWithPipe};
 `;
 
 const writeFile = (
   lines: string[],
   filename: string,
-  initialTemplate: (lines: string) => string,
+  initialTemplate: (
+    concatenatedLinesWithComma: string,
+    concatenatedLinesWithPipe: string,
+  ) => string,
 ) => {
   const generatedIconKeysFilePath = path.resolve(generatedIconsPath, filename);
 
-  const concatenatedLines = lines.join(',');
+  const concatenatedLinesWithComma = lines.join(',');
+  const concatenatedLinesWithPipe = lines.join('|');
 
-  const template = initialTemplate(concatenatedLines);
+  const template = initialTemplate(
+    concatenatedLinesWithComma,
+    concatenatedLinesWithPipe,
+  );
 
   fse.writeFileSync(generatedIconKeysFilePath, template, {
     flag: 'w',

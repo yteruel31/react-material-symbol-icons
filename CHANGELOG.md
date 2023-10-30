@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.2](https://github.com/yteruel31/react-material-symbol-icons/compare/v1.2.1...v1.2.2) (2023-10-30)
+
+
+### Bug Fixes
+
+* **MaterialSymbol:** provide right IconKey types ([3234846](https://github.com/yteruel31/react-material-symbol-icons/commit/32348466ee80340b415d4ffb929612803f7e0a75))
+
+
+### Dependencies
+
+* bump material-symbols from 0.13.0 to 0.13.2 ([8c8cac2](https://github.com/yteruel31/react-material-symbol-icons/commit/8c8cac21e7bbca508ad389c17cbc691ca2cbd5a0))
+
 ## [1.2.1](https://github.com/yteruel31/react-material-symbol-icons/compare/v1.2.0...v1.2.1) (2023-10-30)
 
 

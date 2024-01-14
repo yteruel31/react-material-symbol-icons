@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.2.3](https://github.com/yteruel31/react-material-symbol-icons/compare/v1.2.2...v1.2.3) (2024-01-14)
+
+
+### Miscellaneous
+
+* add linting check on PR ([568462e](https://github.com/yteruel31/react-material-symbol-icons/commit/568462e55e771be533b88772268a1217eec3b0c3))
+
+
+### Dependencies
+
+* bump @babel/traverse from 7.22.8 to 7.23.7 ([0f77220](https://github.com/yteruel31/react-material-symbol-icons/commit/0f77220a682a3142c3af7ce7606eae634a47fba7))
+* bump material-symbols from 0.13.2 to 0.14.5 ([cf84994](https://github.com/yteruel31/react-material-symbol-icons/commit/cf84994c70f525c553e19feeaa77dbc80671f310))
+* bump postcss from 8.4.25 to 8.4.33 ([1f248cc](https://github.com/yteruel31/react-material-symbol-icons/commit/1f248ccd26c46aea87d29ff5419f8a92bed0b683))
+* bump storybook from 7.0.23 to 7.0.27 ([9040448](https://github.com/yteruel31/react-material-symbol-icons/commit/90404488d68b0fdc8a0e7e9959713f035b9c396e))
+* bump storybook from 7.0.27 to 7.6.7 ([611b662](https://github.com/yteruel31/react-material-symbol-icons/commit/611b662ecf0113afa18686219382ce6fdf00b80e))
+
 ## [1.2.2](https://github.com/yteruel31/react-material-symbol-icons/compare/v1.2.1...v1.2.2) (2023-10-30)
 
 

@@ -1,1 +1,1 @@
-{"v":4,"entries":{"components-materialsymbol--material-symbol":{"id":"components-materialsymbol--material-symbol","title":"Components/MaterialSymbol","name":"Material Symbol","importPath":"./src/components/MaterialSymbol/MaterialSymbol.story.tsx","tags":["story"],"type":"story"}}}
+{"v":4,"entries":{"components-materialsymbol--material-symbol":{"type":"story","id":"components-materialsymbol--material-symbol","name":"Material Symbol","title":"Components/MaterialSymbol","importPath":"./src/components/MaterialSymbol/MaterialSymbol.story.tsx","tags":["story"]}}}

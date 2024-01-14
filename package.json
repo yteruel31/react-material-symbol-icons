@@ -9,12 +9,17 @@
     "dist"
   ],
   "scripts": {
-    "clean": "rimraf dist",
-    "build:prepare": "npm run clean",
     "build": "npm run build:prepare && esno scripts/build",
-    "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "generate:keys": "esno scripts/generate-icon-keys"
+    "build:prepare": "npm run clean",
+    "check": "npm run typecheck && npm run lint && npm run prettier:test",
+    "clean": "rimraf dist",
+    "generate:keys": "esno scripts/generate-icon-keys",
+    "lint": "eslint src src --ext .ts,.tsx --cache",
+    "prettier:test": "prettier --check \"**/*.{ts,tsx}\"",
+    "prettier:write": "prettier --write \"**/*.{ts,tsx}\"",
+    "storybook": "storybook dev -p 6006",
+    "typecheck": "tsc --noEmit"
   },
   "repository": {
     "type": "git",

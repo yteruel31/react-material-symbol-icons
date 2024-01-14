@@ -9,7 +9,7 @@ export class Logger {
 
   private log(message: string, breaks: number = 1) {
     process.stdout.write(
-      `${chalk.cyan(`[${this.name}]`)} ${message}${'\n'.repeat(breaks)}`
+      `${chalk.cyan(`[${this.name}]`)} ${message}${'\n'.repeat(breaks)}`,
     );
   }
 

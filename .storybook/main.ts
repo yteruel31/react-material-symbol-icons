@@ -1,4 +1,4 @@
-import { StorybookConfig } from '@storybook/react-webpack5';
+import { StorybookConfig } from '@storybook/react-vite';
 
 const path = require('path');
 const storiesPath = path
@@ -7,23 +7,8 @@ const storiesPath = path
 
 const config: StorybookConfig = {
   stories: [storiesPath],
-  addons: [
-    '@storybook/addon-essentials',
-    '@storybook/addon-webpack5-compiler-babel',
-  ],
-  framework: {
-    name: '@storybook/react-webpack5',
-    options: {},
-  },
-  webpackFinal: async (config) => {
-    if (config.resolve) {
-      config.resolve.alias = {
-        ...config.resolve.alias,
-        '@': path.resolve(__dirname, '../src'),
-      };
-    }
-    return config;
-  },
+  addons: ['@storybook/addon-essentials'],
+  framework: '@storybook/react-vite',
 };
 
 export default config;

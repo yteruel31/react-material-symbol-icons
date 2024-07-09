@@ -2,7 +2,8 @@ import React, { createElement, forwardRef } from 'react';
 import { IconKey } from '../Icons/generated/generated-icon-keys';
 import 'material-symbols/index.css';
 
-export interface MaterialSymbolProps {
+export interface MaterialSymbolProps
+  extends React.HTMLAttributes<HTMLSpanElement> {
   /** The icon to display */
   icon: IconKey;
 

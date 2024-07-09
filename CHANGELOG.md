@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.5](https://github.com/yteruel31/react-material-symbol-icons/compare/v1.2.4...v1.2.5) (2024-07-09)
+
+
+### Miscellaneous
+
+* move typescript to dev dependencies ([2b5e5ba](https://github.com/yteruel31/react-material-symbol-icons/commit/2b5e5bace524512c03f071dd8fe5bf470e8fbfb6))
+
 ## [1.2.4](https://github.com/yteruel31/react-material-symbol-icons/compare/v1.2.3...v1.2.4) (2024-07-09)
 
 

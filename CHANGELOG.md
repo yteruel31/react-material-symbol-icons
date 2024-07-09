@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.2.4](https://github.com/yteruel31/react-material-symbol-icons/compare/v1.2.3...v1.2.4) (2024-07-09)
+
+
+### Miscellaneous
+
+* **MaterialSymbol:** extend props to span attributes ([75406d1](https://github.com/yteruel31/react-material-symbol-icons/commit/75406d1cae69d3c453bc605a65e4e760e52a82ab))
+* **Storybook:** replace react-webpack5 as framework by react-vite ([b0af46a](https://github.com/yteruel31/react-material-symbol-icons/commit/b0af46aa62e4249db6ba267c3aeb132cf30880d7))
+* update node to 18 ([bfb77ae](https://github.com/yteruel31/react-material-symbol-icons/commit/bfb77aefa48b6d14b3f83772a5665cda800afcf9))
+
+
+### Dependencies
+
+* bump braces from 3.0.2 to 3.0.3 ([#66](https://github.com/yteruel31/react-material-symbol-icons/issues/66)) ([93a0736](https://github.com/yteruel31/react-material-symbol-icons/commit/93a0736ef23eac6f52a698636ce29fe862921a9d))
+* bump material-symbols from 0.14.5 to 0.21.0 ([285724e](https://github.com/yteruel31/react-material-symbol-icons/commit/285724ec9511ae3995ac396593e88763458454b8))
+* bump storybook from 7.6.7 to 8.1.11 ([15d7192](https://github.com/yteruel31/react-material-symbol-icons/commit/15d71924e053fb98e6618883153c51e548a421ce))
+* bump tar from 6.2.0 to 6.2.1 ([#64](https://github.com/yteruel31/react-material-symbol-icons/issues/64)) ([85c8639](https://github.com/yteruel31/react-material-symbol-icons/commit/85c863923b7ae38728d3aa64b6e6e695078895de))
+* bump ws from 8.16.0 to 8.18.0 ([#67](https://github.com/yteruel31/react-material-symbol-icons/issues/67)) ([8a85c77](https://github.com/yteruel31/react-material-symbol-icons/commit/8a85c770ff7b64830f098cdff362f4e7ed638a09))
+
 ## [1.2.3](https://github.com/yteruel31/react-material-symbol-icons/compare/v1.2.2...v1.2.3) (2024-01-14)
 
 

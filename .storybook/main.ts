@@ -7,7 +7,10 @@ const storiesPath = path
 
 const config: StorybookConfig = {
   stories: [storiesPath],
-  addons: ['@storybook/addon-essentials'],
+  addons: [
+    '@storybook/addon-essentials',
+    '@storybook/addon-webpack5-compiler-babel',
+  ],
   framework: {
     name: '@storybook/react-webpack5',
     options: {},

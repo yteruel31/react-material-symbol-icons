@@ -42,9 +42,9 @@
     "typescript"
   ],
   "dependencies": {
+    "material-symbols": "^0.21.0",
     "react": "^18.2.0",
-    "typescript": "^4.8.4",
-    "material-symbols": "^0.21.0"
+    "typescript": "^4.8.4"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.22.5",
@@ -56,13 +56,13 @@
     "@rollup/plugin-node-resolve": "^15.1.0",
     "@rollup/plugin-replace": "^2.4.2",
     "@rollup/plugin-typescript": "^11.1.2",
-    "@storybook/addon-essentials": "^7.6.7",
-    "@storybook/addons": "^7.6.7",
-    "@storybook/api": "^7.6.7",
-    "@storybook/components": "^7.6.7",
-    "@storybook/core-events": "^7.6.7",
-    "@storybook/react": "^7.6.7",
-    "@storybook/react-webpack5": "^7.6.7",
+    "@storybook/addon-essentials": "8.1.11",
+    "@storybook/addon-webpack5-compiler-babel": "3.0.3",
+    "@storybook/components": "8.1.11",
+    "@storybook/core-events": "8.1.11",
+    "@storybook/manager-api": "8.1.11",
+    "@storybook/react": "8.1.11",
+    "@storybook/react-webpack5": "8.1.11",
     "@types/fs-extra": "^11.0.1",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
@@ -85,7 +85,7 @@
     "rollup": "^3.26.0",
     "rollup-plugin-esbuild": "^4.2.3",
     "rollup-plugin-node-externals": "^6.1.1",
-    "storybook": "^7.6.7",
+    "storybook": "8.1.11",
     "yargs": "^17.0.1"
   },
   "peerDependencies": {

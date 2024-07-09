@@ -44,7 +44,7 @@
   "dependencies": {
     "react": "^18.2.0",
     "typescript": "^4.8.4",
-    "material-symbols": "^0.14.5"
+    "material-symbols": "^0.21.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.22.5",

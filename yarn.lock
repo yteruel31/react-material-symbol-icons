@@ -6591,10 +6591,10 @@ markdown-to-jsx@^7.1.8:
   resolved "https://registry.yarnpkg.com/markdown-to-jsx/-/markdown-to-jsx-7.4.0.tgz#4606c5c549a6f6cb87604c35f5ee4f42959ffb6b"
   integrity sha512-zilc+MIkVVXPyTb4iIUTIz9yyqfcWjszGXnwF9K/aiBWcHXFcmdEMTkG01/oQhwSCH7SY1BnG6+ev5BzWmbPrg==
 
-material-symbols@^0.14.5:
-  version "0.14.5"
-  resolved "https://registry.yarnpkg.com/material-symbols/-/material-symbols-0.14.5.tgz#9ee39a47cd131ee9c678a6cb618813693b0c4d2b"
-  integrity sha512-3fB0MEG93k8C7D7sI0HSQWlKy3rgIQ6HPICkEPs9blsod/nWofSBdDPvUa9XpNRIqciqLA+hZF8DVnA4J19BlQ==
+material-symbols@^0.21.0:
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/material-symbols/-/material-symbols-0.21.0.tgz#f0b79d32dbb00b099fccb7c298aba902ffd8d41b"
+  integrity sha512-MCQPYV+E0pKyYYjMhuI3DEK0lBNXoTVGl+5eAq3/ybXpqFioGPyBfdXYW6M5G+Naa6VF0Q1Yzh7BCRqT1G56bw==
 
 mdast-util-definitions@^4.0.0:
   version "4.0.0"

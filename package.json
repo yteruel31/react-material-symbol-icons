@@ -43,8 +43,7 @@
   ],
   "dependencies": {
     "material-symbols": "^0.21.0",
-    "react": "^18.2.0",
-    "typescript": "^4.8.4"
+    "react": "^18.2.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.22.5",
@@ -85,6 +84,7 @@
     "rollup-plugin-esbuild": "^4.2.3",
     "rollup-plugin-node-externals": "^6.1.1",
     "storybook": "8.1.11",
+    "typescript": "^4.8.4",
     "vite": "^5.3.3",
     "yargs": "^17.0.1"
   },

@@ -1,6 +1,7 @@
 import React, { createElement, forwardRef } from 'react';
 import { IconKey } from '../Icons/generated/generated-icon-keys';
 import 'material-symbols/index.css';
+import { clsx } from 'clsx';
 
 export interface MaterialSymbolProps
   extends React.HTMLAttributes<HTMLSpanElement> {
@@ -39,6 +40,8 @@ export const MaterialSymbol = forwardRef<HTMLSpanElement, MaterialSymbolProps>(
       size = '48',
       weight = '500',
       grade = '0',
+      className,
+      style,
       children,
       ...rest
     },
@@ -58,8 +61,9 @@ export const MaterialSymbol = forwardRef<HTMLSpanElement, MaterialSymbolProps>(
               fontVariationSettings,
               color,
               fontSize: `${size}px`,
+              ...style,
             },
-            className: 'material-symbols-' + theme,
+            className: clsx(`material-symbols-${theme}`, className),
             ...rest,
           },
           [...(icon ? [icon] : [])],

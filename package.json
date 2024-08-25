@@ -42,6 +42,7 @@
     "typescript"
   ],
   "dependencies": {
+    "clsx": "^2.1.1",
     "material-symbols": "^0.21.0",
     "react": "^18.2.0"
   },

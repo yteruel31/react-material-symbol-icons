@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.6](https://github.com/yteruel31/react-material-symbol-icons/compare/v1.2.5...v1.2.6) (2024-08-25)
+
+
+### Bug Fixes
+
+* **MaterialSymbol:** provide `className` & `style` props ([eae0722](https://github.com/yteruel31/react-material-symbol-icons/commit/eae07220c455389d248889c853ba77e7a9dcb3cc))
+
+
+### Dependencies
+
+* bump material-symbols from 0.21.0 to 0.22.2 ([c45a016](https://github.com/yteruel31/react-material-symbol-icons/commit/c45a01643cd1e8e91338d43b3b20ba53fca0ab73))
+
 ## [1.2.5](https://github.com/yteruel31/react-material-symbol-icons/compare/v1.2.4...v1.2.5) (2024-07-09)
 
 

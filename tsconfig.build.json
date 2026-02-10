@@ -5,7 +5,9 @@
   "exclude": [
     "node_modules",
     "dist",
-    "**/*.story.tsx"
+    "**/*.story.tsx",
+    "**/*.test.tsx",
+    "**/*.test.ts"
   ],
   "compilerOptions": {
     "rootDir": "src",

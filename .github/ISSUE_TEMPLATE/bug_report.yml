@@ -1,0 +1,67 @@
+name: Bug Report
+description: Report a bug or unexpected behavior
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear description of what happened and what you expected to happen.
+      placeholder: |
+        What happened:
+
+        What I expected:
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Minimal steps to reproduce the behavior.
+      placeholder: |
+        1. Install package
+        2. Use component with props...
+        3. See error
+    validations:
+      required: true
+
+  - type: dropdown
+    id: theme
+    attributes:
+      label: Icon theme
+      options:
+        - outlined (default)
+        - rounded
+        - sharp
+        - N/A
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Package version
+      placeholder: e.g., 1.2.6
+    validations:
+      required: true
+
+  - type: dropdown
+    id: react-version
+    attributes:
+      label: React version
+      options:
+        - "16.x"
+        - "17.x"
+        - "18.x"
+        - "19.x"
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Screenshots, code sandbox links, or any other relevant information.
+    validations:
+      required: false

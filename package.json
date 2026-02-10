@@ -5,6 +5,18 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/lib/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/lib/index.d.ts",
+        "default": "./dist/esm/index.js"
+      },
+      "require": {
+        "types": "./dist/lib/index.d.ts",
+        "default": "./dist/cjs/index.js"
+      }
+    }
+  },
   "files": [
     "dist"
   ],
@@ -43,8 +55,7 @@
   ],
   "dependencies": {
     "clsx": "^2.1.1",
-    "material-symbols": "^0.40.2",
-    "react": "^18.2.0"
+    "material-symbols": "^0.40.2"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.22.5",

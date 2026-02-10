@@ -6544,10 +6544,10 @@ markdown-to-jsx@7.3.2:
   resolved "https://registry.yarnpkg.com/markdown-to-jsx/-/markdown-to-jsx-7.3.2.tgz#f286b4d112dad3028acc1e77dfe1f653b347e131"
   integrity sha512-B+28F5ucp83aQm+OxNrPkS8z0tMKaeHiy0lHJs3LqCyDQFtWuenaIrkaVTgAm1pf1AU85LXltva86hlaT17i8Q==
 
-material-symbols@^0.22.2:
-  version "0.22.2"
-  resolved "https://registry.yarnpkg.com/material-symbols/-/material-symbols-0.22.2.tgz#a51f82aa4c3b8a0483bef186abb51f0707fd5fae"
-  integrity sha512-guN2+CzAwxUfdXiuVHcdogDmvhzvRYxMakKd39WmYuyTPaN73UuNC5cH4d4/JVNaLT1EMM8W/4PqHqVBye3ZiA==
+material-symbols@^0.40.2:
+  version "0.40.2"
+  resolved "https://registry.yarnpkg.com/material-symbols/-/material-symbols-0.40.2.tgz#ca24a8577d7bfcd9b1a00521ac1b40805206639a"
+  integrity sha512-QUJF1HztvcpP8pXHPPNESK05Thq/Zy8ub17T2xBDf4+gqx4KBs353lKHuVzE/eCYOtiB9JBlFOU7cjAI6vVMTQ==
 
 media-typer@0.3.0:
   version "0.3.0"

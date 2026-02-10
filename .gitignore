@@ -1,7 +1,6 @@
 # Jetbrains
 /.idea
 
-
 # Dependencies
 /node_modules
 
@@ -9,6 +8,26 @@
 /dist
 /storybook-static
 
+# Coverage
+/coverage
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
+
 # Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
 yarn-error.log
 .eslintcache
+
+# Editor
+.vscode/
+*.swp
+*.swo
+*~

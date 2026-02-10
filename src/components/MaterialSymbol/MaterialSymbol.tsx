@@ -1,7 +1,7 @@
 import React, { createElement, forwardRef } from 'react';
-import { IconKey } from '../Icons/generated/generated-icon-keys';
-import 'material-symbols/index.css';
 import { clsx } from 'clsx';
+import 'material-symbols/index.css';
+import { IconKey } from '../Icons/generated/generated-icon-keys';
 
 export interface MaterialSymbolProps
   extends React.HTMLAttributes<HTMLSpanElement> {

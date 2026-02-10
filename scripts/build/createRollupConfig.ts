@@ -1,5 +1,10 @@
 import path from 'path';
-import { ModuleFormat, OutputOptions, RollupOptions } from 'rollup';
+import {
+  ModuleFormat,
+  OutputOptions,
+  RenderedChunk,
+  RollupOptions,
+} from 'rollup';
 import commonjs from '@rollup/plugin-commonjs';
 import nodeExternals from 'rollup-plugin-node-externals';
 import nodeResolve from '@rollup/plugin-node-resolve';
@@ -45,6 +50,15 @@ export const createRollupConfig = async (
     }),
     alias({ entries: aliasEntries }),
     replace({ preventAssignment: true }),
+    {
+      name: 'use-client-directive',
+      renderChunk(code: string, chunk: RenderedChunk) {
+        if (chunk.isEntry) {
+          return { code: `"use client";\n${code}`, map: null };
+        }
+        return null;
+      },
+    },
   ];
 
   let strings = Object.keys({
@@ -79,5 +93,9 @@ export const createRollupConfig = async (
     output,
     external: externals,
     plugins,
+    onwarn(warning, warn) {
+      if (warning.code === 'MODULE_LEVEL_DIRECTIVE') return;
+      warn(warning);
+    },
   };
 };

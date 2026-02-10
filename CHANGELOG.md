@@ -1,5 +1,37 @@
 # Changelog
 
+## [1.3.0](https://github.com/yteruel31/react-material-symbol-icons/compare/v1.2.6...v1.3.0) (2026-02-10)
+
+
+### Features
+
+* add "use client" directive for RSC compatibility ([d11fb5f](https://github.com/yteruel31/react-material-symbol-icons/commit/d11fb5fb1a0a5ecaadb11e03385ff5567405c010))
+
+
+### Bug Fixes
+
+* **package:** remove react from dependencies and add exports field ([d6d7e45](https://github.com/yteruel31/react-material-symbol-icons/commit/d6d7e45e3b4f87fba4683c31ea40f7e9f2d31604))
+
+
+### Miscellaneous
+
+* add husky, lint-staged, and commitlint ([26c1e0b](https://github.com/yteruel31/react-material-symbol-icons/commit/26c1e0b4a24f54a61d7b21f54ac2f6234d9b10fd))
+* **ci:** update GitHub Actions, add provenance, split CI steps ([7fe7eda](https://github.com/yteruel31/react-material-symbol-icons/commit/7fe7eda1a0df8817982974fd31e416af79f088cb))
+* expand .gitignore ([67e1d23](https://github.com/yteruel31/react-material-symbol-icons/commit/67e1d233441f3ca1e5ac229b740259c7c6d83678))
+* upgrade Node from 18 to 20 ([5d6fec1](https://github.com/yteruel31/react-material-symbol-icons/commit/5d6fec1075af24fa5204c6a80e6b076f5e2bea9c))
+
+
+### Dependencies
+
+* bump material-symbols from 0.22.2 to 0.40.2 ([460f974](https://github.com/yteruel31/react-material-symbol-icons/commit/460f9743e96cc7a78a4dd4e5969f9913e9e644b2))
+* bump storybook to 8.6.15 and vite to 5.4.21 ([6a4aedc](https://github.com/yteruel31/react-material-symbol-icons/commit/6a4aedc0a50bef121480db59122a7f1daddc4372))
+
+
+### Documentations
+
+* add community health files ([dbbafac](https://github.com/yteruel31/react-material-symbol-icons/commit/dbbafac1ec9aadbe293c06fe2b1dfe9d6017170f))
+* rewrite README with full API docs, badges, and features ([f72a300](https://github.com/yteruel31/react-material-symbol-icons/commit/f72a30045dfc08bc8a763e01be82f3d285beda19))
+
 ## [1.2.6](https://github.com/yteruel31/react-material-symbol-icons/compare/v1.2.5...v1.2.6) (2024-08-25)
 
 
